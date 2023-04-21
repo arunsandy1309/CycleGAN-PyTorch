@@ -9,6 +9,6 @@ This repository contains the Pytorch implementation of the following paper:
 
 ## Architecture
 <img src="https://user-images.githubusercontent.com/50144683/233066107-57c019b0-6357-4a2d-849a-a04f6b355971.png"></br>
-(a) Our model contains two mapping functions G : X → Y and F : Y → X, and associated adversarial discriminators DY and DX. DY encourages G to translate X into outputs indistinguishable from domain Y , and vice versa for DX and F. To further regularize the mappings, we introduce two cycle consistency losses that capture the intuition that if we translate from one domain to the other and back again we should arrive at where we started:</br> 
-(b) forward cycle-consistency loss: x → G(x) → F(G(x)) ≈ x, and </br>
-(c) backward cycle-consistency loss: y → F(y) → G(F(y)) ≈ y </br>
+**(a)** Our model contains two mapping functions G : X → Y and F : Y → X, and associated adversarial discriminators DY and DX. DY encourages G to translate X into outputs indistinguishable from domain Y , and vice versa for DX and F. To further regularize the mappings, we introduce two cycle consistency losses that capture the intuition that if we translate from one domain to the other and back again we should arrive at where we started:</br> 
+**(b)** forward cycle-consistency loss: x → G(x) → F(G(x)) ≈ x, and </br>
+**(c)** backward cycle-consistency loss: y → F(y) → G(F(y)) ≈ y </br>
