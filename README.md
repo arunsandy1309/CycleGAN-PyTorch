@@ -1,5 +1,7 @@
 # CycleGAN - PyTorch Implementation
 
+<img src="https://user-images.githubusercontent.com/50144683/233770559-119c3f75-c4ae-4e46-9f97-6c2ba4d7ad27.gif" width='100%'>This is our ongoing PyTorch implementation for unpaired image-to-image translation.</br>
+
 This repository contains the Pytorch implementation of the following paper:
 >**Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks**</br>
 >Jun-Yan Zhu, Taesung Park, Phillip Isola, Alexei A. Efros</br>
