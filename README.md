@@ -52,3 +52,9 @@ python train.py --dataroot ./datasets/horse2zebra --name horse2zebra_cyclegan --
 python test.py --dataroot ./datasets/horse2zebra --name horse2zebra_cyclegan --model cycle_gan --phase test
 ```
 + The test results will be saved to a html file here: `/results/horse2zebra_cyclegan/test_latest/index.html`
+
+## Related Works
++ [Generating Real World Images using DCGAN in PyTorch](https://github.com/arunsandy1309/RealWorld-Image-Generation-DCGAN)
++ [Anime Character Generation using DCGAN in PyTorch](https://github.com/arunsandy1309/Anime-Character-Generation-DCGAN)
++ [Conditional GAN in PyTorch](https://github.com/arunsandy1309/Conditional-GAN-PyTorch)
++ [Vanilla GAN in PyTorch](https://github.com/arunsandy1309/Vanilla-GAN)
